@@ -4,7 +4,7 @@ import remarkGfm from "remark-gfm";
 
 import { WorkExperienceProps } from "@/types";
 
-const WorkExperienceItem = ({ name, position, period, markdown, imgSrc }: WorkExperienceProps) => {
+const WorkExperienceItem = ({ name, position, period, markdown, imgSrc, introduce, title, link}: WorkExperienceProps) => {
   return (
     <div className="flex flex-col md:flex-row gap-6 md:gap-0">
       <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
@@ -26,6 +26,22 @@ const WorkExperienceItem = ({ name, position, period, markdown, imgSrc }: WorkEx
         </div>
       </div>
       <div className="md:border-GRAY_LIGHT md:border-solid md:border-l-[1px] md:pl-4 markdown w-full">
+        {
+          introduce && (
+            <div className="items-center gap-4 w-full mb-2 hidden md:flex">
+              <div className="h-[1px] bg-GRAY_HEAVY/20 flex-grow"></div>
+              <span
+                className="text-GRAY_HEAVY p-2 text-center italic">{introduce}</span>
+            </div>
+          )
+        }
+        {
+          title && (
+            <h4>{title}
+              {link && (<a href={link} rel="noopener noreferrer" target="_blank">서비스 Link 🔗</a>)}
+            </h4>
+          )
+        }
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown ?? ""}</ReactMarkdown>
       </div>
     </div>

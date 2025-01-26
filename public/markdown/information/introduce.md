@@ -1,7 +1,6 @@
-- Hoo-ooh-ooh-ooh
-- Hoo-ooh-ooh-ooh
-- Stay in the middle
-- Like you a little
-- Don't want no riddle
-- 말해줘 say it back, oh, say it ditto
-- 아침은 너무 멀어 so say it ditto
+- 의사소통을 좋아하는 **개발자 유밀** 입니다. 
+- 스타트업에서 3년동안 **풀스택 개발 및 CI/CD** 경험을 했어요.
+- 다양한 **프레임워크, 언어**에 대한 두려움이 없어요.
+- **문제해결에 대한 쾌감**을 좋아해요.
+- **팀워크**를 중요하게 생각하며, **협업**으로 더 나은 결과가 나온다고 생각합니다.
+- **지속적인 학습과 성장**을 통해 더욱 가치있는 개발자가 되고자 해요.

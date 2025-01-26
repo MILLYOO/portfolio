@@ -1,97 +1,119 @@
 {
   "resumeTitle": {
-    "title": "Hong Gil Dong"
+    "title": "MILLYOO"
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "유밀",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "mill0452130@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/MILLYOO/" },
+      { "id": 2, "name": "Blog", "href": "https://delirious-hare-a0c.notion.site/Technical-Skills-1852dc686c5b808791fcf69490b2cccf" }
     ]
   },
 
   "workExperience": [
     {
       "id": 0,
-      "name": "커피프린스 1호점",
-      "position": "Front-end Engineer",
-      "period": ["2019. 01", "2019. 09"]
-    },
-    {
-      "id": 1,
-      "name": "커피프린스 2호점",
-      "position": "바리스타",
-      "period": ["2022. 01", "now"]
+      "name": "오솔정보기술",
+      "position": "Full-Stack Engineer",
+      "period": ["2022. 01", "2024. 07"],
+      "title": "",
+      "introduce": "스타트업 SI 업체",
+      "link": ""
     }
   ],
 
   "project": [
     {
       "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "조선대학교 통합 정보 시스템",
+      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.",
       "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
+      "period": ["2023. 11", "ing"]
     },
     {
       "id": 1,
-      "name": "첫번째 개인 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "보건복지협회 러브플랜 구축사업",
+      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.\n",
+      "webUrl": "https://www.loveplan.kr/home",
+      "isTeam": true,
+      "period": ["2023. 09", "2023. 11"]
+    },
+    {
+      "id": 2,
+      "name": "UST 입학전형시스템 구축사업",
+      "description": "통합정보와 입학전형 시스템간 기능을 통합해 효율적인 관리를 목표로 한 입학전형재구축 프로젝트입니다.",
+      "webUrl": "https://apply.ust.ac.kr/common/setlocale",
+      "isTeam": true,
+      "period": ["2023. 02", "2023. 07"],
+      "stack": ["JAVA 17", "SpringBoot 2.6.7", "Node 16.17.0", "Vue 2.7.10", "Nginx"]
+    },
+    {
+      "id": 3,
+      "name": "UST 교원 임용지원시스템 구축사업",
+      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.",
+      "webUrl": "https://prof.ust.ac.kr/home/main",
+      "isTeam": true,
+      "period": ["2022. 08", "2022. 12"],
+      "stack": ["JAVA 17", "SpringBoot 2.6.7", "Node 16.17.0", "Vue 2.7.10", "Nginx"]
+    },
+    {
+      "id": 4,
+      "name": "전문연구요원 복무관리시스템",
+      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.ㅇㅇ",
+      "webUrl": "https://krep.kaist.ac.kr",
+      "isTeam": true,
+      "period": ["2022. 01", "2022. 09"],
+      "stack": ["Python 3.9.5", "Django 3.2.4", "Nginx", "uWSGI", "DjangoORM"]
+    },
+    {
+      "id": 5,
+      "name": "HubWeb",
+      "description": "대덕인재개발원의 최종프로젝트입니다. PM으로써 2번째 프로젝트이며, 진행하며 어려운점은 많았지만 Spring에 대해서 한번 더 생각하는 좋은 계기가된 프로젝트입니다.",
+      "repoUrl": "https://github.com/MILLYOO/dditYM_05/tree/main/HubWeb",
       "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "period": ["2021. 10", "2022. 12"],
+      "stack": ["Spring 4.3.2", "Tomcat", "SVN", "JSP2.3", "HTML/CSS"]
     }
   ],
 
   "activity": [
     {
       "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
+      "name": "대덕인재개발원(전자정부 표준 프레임워크 기반 풀-스택 개발자 양성과정)",
+      "period": ["2021. 05", "2021. 12"],
+      "description": "JAVA, JAVASCRIPT, JQuery, CSS, SpringMVC, SpringSecurity등 전자정부 표준 프레임워크의 기본 지식을 쌓을 수 있는 과정이수."
     }
   ],
 
   "education": [
     {
       "id": 0,
-      "name": "첫번째 교육",
+      "name": "한국교통대학교",
       "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "description": "∙ 컴퓨터공학과 졸업\n∙ 졸업성적 : 3.82\n∙ 3학년,4학년 과대표"
     }
   ],
 
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "정보처리기사",
+      "date": "2021. 06.",
+      "organizer": "한국산업인력공단"
     },
     {
       "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "CCNA",
+      "date": "2020. 02.",
+      "organizer": "CISCO"
+    },
+    {
+      "id": 2,
+      "name": "1종보통운전면허",
+      "date": "2013. 01.",
+      "organizer": "경찰청"
     }
   ],
 
