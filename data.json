@@ -61,7 +61,7 @@
     {
       "id": 4,
       "name": "전문연구요원 복무관리시스템",
-      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.ㅇㅇ",
+      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.ReactNative를 활용한 어플리케이션도",
       "webUrl": "https://krep.kaist.ac.kr",
       "isTeam": true,
       "period": ["2022. 01", "2022. 09"],
@@ -70,7 +70,7 @@
     {
       "id": 5,
       "name": "HubWeb",
-      "description": "대덕인재개발원의 최종프로젝트입니다. PM으로써 2번째 프로젝트이며, 진행하며 어려운점은 많았지만 Spring에 대해서 한번 더 생각하는 좋은 계기가된 프로젝트입니다.",
+      "description": "",
       "repoUrl": "https://github.com/MILLYOO/dditYM_05/tree/main/HubWeb",
       "isTeam": false,
       "period": ["2021. 10", "2022. 12"],
@@ -83,7 +83,8 @@
       "id": 0,
       "name": "대덕인재개발원(전자정부 표준 프레임워크 기반 풀-스택 개발자 양성과정)",
       "period": ["2021. 05", "2021. 12"],
-      "description": "JAVA, JAVASCRIPT, JQuery, CSS, SpringMVC, SpringSecurity등 전자정부 표준 프레임워크의 기본 지식을 쌓을 수 있는 과정이수."
+      "description": "JAVA, JAVASCRIPT, JQuery, CSS, SpringMVC, SpringSecurity등 기초 지식을 배우며, 전자정부 표준 프레임워크를 활용한 실무 기반 교육을 이수. \r\n경력 : 1번째 프로젝트 : PM/TA \r\n        2번째 프로젝트 : TA/DA \r\n        3번째 프로젝트 : PM/TA"
+
     }
   ],
 
