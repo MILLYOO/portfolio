@@ -28,14 +28,14 @@
     {
       "id": 0,
       "name": "조선대학교 통합 정보 시스템",
-      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.",
+      "description": "PowerBuilder로 작성된 AS-IS시스템을 SpringMVC + ExBuilder6를 활용한 TO-BE시스템으로 새로 적용하는 프로젝트입니다.",
       "isTeam": true,
       "period": ["2023. 11", "ing"]
     },
     {
       "id": 1,
       "name": "보건복지협회 러브플랜 구축사업",
-      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.\n",
+      "description": "SpringBoot과 Vue를 사용한 CRP기반의 프로젝트입니다.",
       "webUrl": "https://www.loveplan.kr/home",
       "isTeam": true,
       "period": ["2023. 09", "2023. 11"]
