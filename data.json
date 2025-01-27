@@ -38,7 +38,8 @@
       "description": "SpringBoot과 Vue를 사용한 CRP기반의 프로젝트입니다.",
       "webUrl": "https://www.loveplan.kr/home",
       "isTeam": true,
-      "period": ["2023. 09", "2023. 11"]
+      "period": ["2023. 09", "2023. 11"],
+      "stack" : ["JAVA 17", "SpringBoot 2"]
     },
     {
       "id": 2,
@@ -70,7 +71,7 @@
     {
       "id": 5,
       "name": "HubWeb",
-      "description": "코로나로 인한 자택근무가 많아짐에 따라 기업체가 독자적으로 물류관리 시스템을 집에서도 사용 할 수 있도록 하기 위한 프로젝트.",
+      "description": "PM으로 활동한 대덕인재 개발원의 최종프로젝트.\r\n코로나로 인한 자택근무가 많아짐에 따라 기업체가 독자적으로 물류관리 시스템을 집에서도 사용 할 수 있도록 하기 위한 프로젝트.",
       "repoUrl": "https://github.com/MILLYOO/dditYM_05/tree/main/HubWeb",
       "isTeam": false,
       "period": ["2021. 10", "2022. 12"],

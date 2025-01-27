@@ -19,22 +19,34 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
             />
           )}
         </div>
-        <h1 className="flex flex-col w-full">
-          안녕하세요,
-          <br /> 풀스택 개발자{" "}
-          <span className="text-PRIMARY font-semibold">{information.name}</span>
-          입니다.
-        </h1>
-        <div className="flex gap-1">
-          {information.contact.map((contact) => (
-            <ContactItem
-              key={contact.id}
-              className="text-BLACK hover:text-PRIMARY_HEAVY dark:hover:text-PRIMARY_HEAVY"
-              {...contact}
-            >
-              {contact.name}
-            </ContactItem>
-          ))}
+        <div className="flex flex-col w-full">
+          <div className="hidden md:inline-block relative rounded-br-3xl rounded-tr-3xl rounded-bl-3xl z-20 bg-transparent origin-top-left w-fit bg-white dark:bg-BLACK">
+            <h1 className="leading-[1.15] text-4xl lg:text-[45px] relative px-4 z-20 inline-block">
+              안녕하세요,
+              <br /> 풀스택 개발자<br />
+              <span className="text-PRIMARY font-semibold">{information.name}</span>
+              입니다.
+            </h1>
+          </div>
+          <div>
+            <span className="inline-block leading-[1.15] font-semibold py-2 text-4xl lg:text-[45px] relative px-4 z-20 md:hidden">
+              안녕하세요,
+              <br /> 풀스택 개발자<br />
+              <span className="text-PRIMARY selection:bg-PRIMARY_LIGHT font-semibold">{information.name}</span>
+              입니다.
+            </span>
+          </div>
+          <div className="flex px-4 gap-1">
+            {information.contact.map((contact) => (
+              <ContactItem
+                key={contact.id}
+                className="text-BLACK hover:text-PRIMARY_HEAVY dark:hover:text-PRIMARY_HEAVY"
+                {...contact}
+              >
+                {contact.name}
+              </ContactItem>
+            ))}
+          </div>
         </div>
       </div>
       <Introduce markdown={information.markdown} />
