@@ -1,5 +1,4 @@
-import GithubIcon from "@/assets/images/github.svg";
-import WebIcon from "@/assets/images/web.svg";
+
 
 const Links = ({ repoUrl, webUrl, gitUrl }: { repoUrl: string; webUrl: string | undefined; gitUrl: string; }) => {
   return (
