@@ -35,11 +35,11 @@
     {
       "id": 1,
       "name": "보건복지협회 러브플랜 구축사업",
-      "description": "SpringBoot과 Vue를 사용한 CRP기반의 프로젝트입니다.",
+      "description": "SpringBoot과 Vue를 사용한 CRP 프로젝트입니다.",
       "webUrl": "https://www.loveplan.kr/home",
       "isTeam": true,
       "period": ["2023. 09", "2023. 11"],
-      "stack" : ["JAVA 17", "SpringBoot 2"]
+      "stack": ["JAVA 17", "SpringBoot 2.6.7", "Vue 2.7.10", "Nginx"]
     },
     {
       "id": 2,
@@ -72,7 +72,8 @@
       "id": 5,
       "name": "HubWeb",
       "description": "PM으로 활동한 대덕인재 개발원의 최종프로젝트.\r\n코로나로 인한 자택근무가 많아짐에 따라 기업체가 독자적으로 물류관리 시스템을 집에서도 사용 할 수 있도록 하기 위한 프로젝트.",
-      "repoUrl": "https://github.com/MILLYOO/dditYM_05/tree/main/HubWeb",
+      "gitUrl" : "https://github.com/MILLYOO/dditYM_05/tree/main/HubWeb",
+      "repoUrl": "https://drive.google.com/file/d/1jgQhHez01BAwQ_097ayWNjCAX60vnGei/view?usp=sharing",
       "isTeam": false,
       "period": ["2021. 10", "2022. 12"],
       "stack": ["Spring 4.3.2", "Tomcat", "SVN", "JSP2.3", "HTML/CSS"]

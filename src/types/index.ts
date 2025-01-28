@@ -23,6 +23,7 @@ export interface ProjectProps {
   name: string;
   description: string;
   repoUrl: string;
+  gitUrl: string;
   webUrl?: string;
   isTeam?: boolean;
   period: string[];
