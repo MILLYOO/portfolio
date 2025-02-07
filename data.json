@@ -82,13 +82,19 @@
   "activity": [
     {
       "id": 0,
+      "name": "Wanted(Next.js 확실히 알고 레벨업하기)",
+      "period": ["2025. 02", "2025. 02"],
+      "description": "Next.js 13+버전에서 제공하는 React SererComponent와 App Route를 활용, 동작방식을 실습을 통해 익힐 수 있는 강의"
+    },
+    {
+      "id": 1,
       "name": "솔데스크강남학원(오픈소스 및 가상머신을 활용한 it 인프라 구축)",
       "period": ["2022. 03", "2022. 04"],
       "description": "DevOps를 위한 Unix/Linux의 특징 및 구성요소를 배울 수 있으며, 실무에서 자주 사용하는 명령어를 익힐 수 있는 강의"
 
     },
     {
-      "id": 1,
+      "id": 0,
       "name": "대덕인재개발원(전자정부 표준 프레임워크 기반 풀-스택 개발자 양성과정)",
       "period": ["2021. 05", "2021. 12"],
       "description": "JAVA, JAVASCRIPT, JQuery, CSS, SpringMVC, SpringSecurity등 기초 지식을 배우며, 전자정부 표준 프레임워크를 활용한 실무 기반 교육을 이수. \r\n경력 : 1번째 프로젝트 : PM/TA \r\n        2번째 프로젝트 : TA/DA \r\n        3번째 프로젝트 : PM/TA"
