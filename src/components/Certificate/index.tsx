@@ -7,7 +7,7 @@ const Certificate = ({ certificate }: Pick<DataProps, "certificate">) => {
   return (
     <div>
       <SectionTitle>Certificates</SectionTitle>
-      <div className="flex flex-col gap-10">
+      <div className="grid grid-cols-3 divide-x divide-GRAY_LIGHT dark:divide-GRAY_EXTRAHEAVY">
         {[...certificate].reverse().map((certificate) => (
           <CertificateItem key={certificate.id} {...certificate} />
         ))}

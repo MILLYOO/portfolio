@@ -26,6 +26,7 @@ export interface ProjectProps {
   gitUrl: string;
   webUrl?: string;
   isTeam?: boolean;
+  companyId?: number;
   period: string[];
   stack: string[];
   markdown?: string;

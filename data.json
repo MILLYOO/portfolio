@@ -18,7 +18,16 @@
       "position": "Full-Stack Engineer",
       "period": ["2022. 01", "2024. 07"],
       "title": "",
-      "introduce": "SI 업체",
+      "introduce": "",
+      "link": ""
+    },
+    {
+      "id": 1,
+      "name": "미래기술",
+      "position": "Full-Stack Engineer",
+      "period": ["2025. 04", "ing"],
+      "title": "",
+      "introduce": "",
       "link": ""
     }
   ],
@@ -27,50 +36,64 @@
     {
       "id": 0,
       "name": "조선대학교 통합 정보 시스템",
-      "description": "PowerBuilder로 작성된 AS-IS시스템을 SpringMVC + ExBuilder6를 활용한 TO-BE시스템으로 새로 적용하는 프로젝트입니다.",
+      "description": "PowerBuilder 기반의 레거시 시스템을 SpringMVC + ExBuilder6로 전환하는 재구축 프로젝트입니다.",
       "isTeam": true,
-      "period": ["2023. 11", "ing"]
+      "companyId": 0,
+      "period": ["2023. 11", "2024. 07"]
     },
     {
       "id": 1,
       "name": "보건복지협회 러브플랜 구축사업",
-      "description": "SpringBoot과 Vue를 사용한 CRP 프로젝트입니다.",
+      "description": "SpringBoot와 Vue를 활용한 보건복지 서비스 플랫폼 구축 프로젝트입니다.",
       "webUrl": "https://www.loveplan.kr/home",
       "isTeam": true,
+      "companyId": 0,
       "period": ["2023. 09", "2023. 11"],
       "stack": ["JAVA 17", "SpringBoot 2.6.7", "Vue 2.7.10", "Nginx"]
     },
     {
       "id": 2,
       "name": "UST 입학전형시스템 구축사업",
-      "description": "통합정보와 입학전형 시스템간 기능을 통합해 효율적인 관리를 목표로 한 입학전형재구축 프로젝트입니다.",
+      "description": "통합정보시스템과 입학전형시스템의 기능을 통합해 효율적인 입학 관리를 목표로 한 재구축 프로젝트입니다.",
       "webUrl": "https://apply.ust.ac.kr/common/setlocale",
       "isTeam": true,
+      "companyId": 0,
       "period": ["2023. 02", "2023. 07"],
       "stack": ["JAVA 17", "SpringBoot 2.6.7", "Node 16.17.0", "Vue 2.7.10", "Nginx"]
     },
     {
       "id": 3,
       "name": "UST 교원 임용지원시스템 구축사업",
-      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.",
+      "description": "UST 교원 채용 프로세스를 온라인으로 전환한 임용지원시스템 구축 프로젝트입니다.",
       "webUrl": "https://prof.ust.ac.kr/home/main",
       "isTeam": true,
+      "companyId": 0,
       "period": ["2022. 08", "2022. 12"],
       "stack": ["JAVA 17", "SpringBoot 2.6.7", "Node 16.17.0", "Vue 2.7.10", "Nginx"]
     },
     {
       "id": 4,
       "name": "전문연구요원 복무관리시스템",
-      "description": "Django Python을 활용한 카이스트 전문연구요원의 출결 및 근태를 관리하기 위한 웹 어플리케이션입니다.ReactNative를 활용한 어플리케이션도",
+      "description": "Django를 활용해 카이스트 전문연구요원의 출결 및 근태를 관리하는 웹 애플리케이션 구축 프로젝트입니다.",
       "webUrl": "https://krep.kaist.ac.kr",
       "isTeam": true,
+      "companyId": 0,
       "period": ["2022. 01", "2022. 09"],
       "stack": ["Python 3.9.5", "Django 3.2.4", "Nginx", "uWSGI", "DjangoORM"]
     },
     {
+      "id": 6,
+      "name": "토스뱅크 종합감사정보시스템 구축사업",
+      "description": "KRI 기반 IT리스크 ERM 모듈 설계·개발을 전담한 종합감사정보시스템 구축 프로젝트입니다.",
+      "isTeam": true,
+      "companyId": 1,
+      "period": ["2025. 06", "2026. 04"],
+      "stack": ["Java", "Spring Boot", "Spring Batch", "Spring Security", "AOP", "Kubernetes", "MySQL", "MyBatis"]
+    },
+    {
       "id": 5,
       "name": "HubWeb",
-      "description": "PM으로 활동한 대덕인재 개발원의 최종프로젝트.\r\n코로나로 인한 자택근무가 많아짐에 따라 기업체가 독자적으로 물류관리 시스템을 집에서도 사용 할 수 있도록 하기 위한 프로젝트.",
+      "description": "재택근무 확산에 따라 기업이 자체적으로 물류를 관리할 수 있도록 한 웹 기반 물류관리 시스템으로, PM을 맡아 팀 전체 일정과 기능 구현을 이끈 최종 프로젝트입니다.",
       "gitUrl" : "https://github.com/MILLYOO/dditYM_05/tree/main/HubWeb",
       "repoUrl": "https://drive.google.com/file/d/1jgQhHez01BAwQ_097ayWNjCAX60vnGei/view?usp=sharing",
       "isTeam": false,
@@ -82,23 +105,21 @@
   "activity": [
     {
       "id": 0,
-      "name": "Wanted(Next.js 확실히 알고 레벨업하기)",
+      "name": "Wanted — Next.js 확실히 알고 레벨업하기",
       "period": ["2025. 02", "2025. 02"],
-      "description": "Next.js 13+버전에서 제공하는 React SererComponent와 App Route를 활용, 동작방식을 실습을 통해 익힐 수 있는 강의"
+      "description": "Next.js 13+ App Router와 React Server Component의 동작 방식을 실습 중심으로 학습한 강의"
     },
     {
       "id": 1,
-      "name": "솔데스크강남학원(오픈소스 및 가상머신을 활용한 it 인프라 구축)",
+      "name": "솔데스크강남학원 — 오픈소스 및 가상머신을 활용한 IT 인프라 구축",
       "period": ["2022. 03", "2022. 04"],
-      "description": "DevOps를 위한 Unix/Linux의 특징 및 구성요소를 배울 수 있으며, 실무에서 자주 사용하는 명령어를 익힐 수 있는 강의"
-
+      "description": "Unix/Linux 기반의 IT 인프라 구성 원리와 실무에서 자주 쓰이는 명령어를 익힌 강의"
     },
     {
-      "id": 0,
-      "name": "대덕인재개발원(전자정부 표준 프레임워크 기반 풀-스택 개발자 양성과정)",
+      "id": 2,
+      "name": "대덕인재개발원 — 전자정부 표준 프레임워크 기반 풀스택 개발자 양성과정",
       "period": ["2021. 05", "2021. 12"],
-      "description": "JAVA, JAVASCRIPT, JQuery, CSS, SpringMVC, SpringSecurity등 기초 지식을 배우며, 전자정부 표준 프레임워크를 활용한 실무 기반 교육을 이수. \r\n경력 : 1번째 프로젝트 : PM/TA \r\n        2번째 프로젝트 : TA/DA \r\n        3번째 프로젝트 : PM/TA"
-
+      "description": "Java, JavaScript, SpringMVC, SpringSecurity 등 웹 개발 기초부터 전자정부 프레임워크 기반 실무 프로젝트까지 이수. 3개 팀 프로젝트에서 PM / TA / DA 역할 수행."
     }
   ],
 
@@ -107,7 +128,7 @@
       "id": 0,
       "name": "한국교통대학교",
       "period": ["2013. 02", "2020. 02"],
-      "description": "∙ 컴퓨터공학과 졸업\n∙ 졸업성적 : 3.82\n∙ 3학년, 4학년 과대표\n∙ Unity를 활용한 게임만들기 동아리(C#)"
+      "description": "∙ 컴퓨터공학과 졸업\n∙ 졸업성적 3.82 / 4.5\n∙ 3, 4학년 과대표\n∙ Unity 게임 개발 동아리 (C#)"
     }
   ],
 
@@ -120,15 +141,15 @@
     },
     {
       "id": 1,
-      "name": "CCNA",
-      "date": "2020. 02.",
-      "organizer": "CISCO"
-    },
-    {
-      "id": 2,
       "name": "1종보통운전면허",
       "date": "2013. 01.",
       "organizer": "경찰청"
+    },
+    {
+      "id": 2,
+      "name": "CCNA",
+      "date": "2020. 02. (만료)",
+      "organizer": "CISCO"
     }
   ],
 

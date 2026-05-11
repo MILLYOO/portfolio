@@ -28,16 +28,21 @@ const Home: NextPage<DataProps> = ({
 }) => {
   return (
     <>
+      <a href="#main-content" className="skip-link">
+        메인 컨텐츠로 건너뛰기
+      </a>
       {/* <ScrollProgress /> */}
       <ResumeTitle resumeTitle={resumeTitle} />
       <Layout>
-        <Information information={information} />
-        <WorkExperience workExperience={workExperience} />
-        <Project project={project} />
-        <Activity activity={activity} />
-        <Education education={education} />
-        <Certificate certificate={certificate} />
-        {/*<Award award={award} />*/}
+        <main id="main-content" className="focus:outline-none flex flex-col gap-8 sm:gap-10 md:gap-14" tabIndex={-1}>
+          <Information information={information} />
+          <WorkExperience workExperience={workExperience} project={project} />
+          <Project project={project} />
+          <Activity activity={activity} />
+          <Education education={education} />
+          <Certificate certificate={certificate} />
+          {/*<Award award={award} />*/}
+        </main>
       </Layout>
       <Footer contact={information.contact} name={information.name} />
     </>

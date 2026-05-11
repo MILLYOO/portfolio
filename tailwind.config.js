@@ -8,6 +8,48 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        sans: [
+          '"Pretendard Variable"',
+          'Pretendard',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'system-ui',
+          'Roboto',
+          '"Helvetica Neue"',
+          '"Segoe UI"',
+          '"Apple SD Gothic Neo"',
+          '"Noto Sans KR"',
+          '"Malgun Gothic"',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          'sans-serif',
+        ],
+      },
+      fontSize: {
+        xs: ['0.75rem', { lineHeight: '1.5', letterSpacing: '0.01em' }],
+        sm: ['0.875rem', { lineHeight: '1.6', letterSpacing: '0.01em' }],
+        base: ['1rem', { lineHeight: '1.7', letterSpacing: '0' }],
+        lg: ['1.125rem', { lineHeight: '1.7', letterSpacing: '0' }],
+        xl: ['1.25rem', { lineHeight: '1.6', letterSpacing: '-0.01em' }],
+        '2xl': ['1.5rem', { lineHeight: '1.5', letterSpacing: '-0.01em' }],
+        '3xl': ['1.875rem', { lineHeight: '1.4', letterSpacing: '-0.02em' }],
+        '4xl': ['2.25rem', { lineHeight: '1.3', letterSpacing: '-0.02em' }],
+        '5xl': ['3rem', { lineHeight: '1.2', letterSpacing: '-0.03em' }],
+      },
+      screens: {
+        xs: '475px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+      },
+      spacing: {
+        18: '4.5rem',
+        22: '5.5rem',
+        26: '6.5rem',
+      },
       // NOTE: 본 템플릿은 대부분이 모노톤으로 이루어져 있습니다. primary 컬러만 수정하여 사용하시는 것을 권장드립니다.
       colors: {
         GRAY_LIGHT: "#f1f3f5",

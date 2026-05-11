@@ -3,23 +3,65 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    @apply transition-colors duration-200;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply text-BLACK dark:text-white bg-white dark:bg-BLACK text-sm md:text-base;
+  }
+
+  /* Responsive Typography */
   h1 {
-    @apply font-semibold text-5xl py-2;
+    @apply font-semibold text-3xl md:text-5xl py-2 leading-tight tracking-tight;
   }
 
   h2 {
-    @apply font-semibold text-4xl py-2;
+    @apply font-semibold text-2xl md:text-4xl py-2 leading-tight tracking-tight;
   }
 
   h3 {
-    @apply font-semibold text-3xl;
+    @apply font-semibold text-xl md:text-3xl leading-snug tracking-tight;
   }
 
   h4 {
-    @apply font-semibold text-2xl;
+    @apply font-semibold text-lg md:text-2xl leading-snug tracking-tight;
   }
+
+  p {
+    @apply leading-relaxed;
+  }
+
+  /* Links */
   a {
-    @apply cursor-pointer hover:cursor-pointer;
+    @apply cursor-pointer transition-all duration-200;
+  }
+
+  /* Focus States for Accessibility */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-PRIMARY ring-2 ring-PRIMARY/20 rounded-sm;
+  }
+
+  *:focus:not(:focus-visible) {
+    @apply outline-none;
+  }
+
+  a:focus-visible {
+    @apply outline-PRIMARY outline-2 outline-offset-2;
+  }
+
+  button:focus-visible,
+  [role="button"]:focus-visible {
+    @apply outline-PRIMARY outline-2 outline-offset-2 ring-2 ring-PRIMARY/20;
+  }
+
+  /* Skip to Content Link */
+  .skip-link {
+    @apply absolute left-0 top-0 bg-PRIMARY text-white px-4 py-2 -translate-y-full focus:translate-y-0 transition-transform z-50 font-semibold rounded-br-md;
   }
 
   .markdown a {
@@ -31,9 +73,12 @@
     @apply pt-4 pb-2;
   }
 
-  .markdown h3,
-  .markdown h4 {
+  .markdown h3 {
     @apply pt-4 pb-2;
+  }
+
+  .markdown h4 {
+    @apply pt-4 pb-1 text-xs font-bold uppercase tracking-widest text-GRAY_EXTRAHEAVY dark:text-GRAY;
   }
 
   strong {
@@ -49,7 +94,7 @@
   }
 
   blockquote {
-    @apply bg-GRAY_LIGHT py-4 px-6 my-2 rounded-md w-full dark:bg-GRAY_EXTRAHEAVY;
+    @apply bg-GRAY_LIGHT py-4 px-6 my-2 rounded-lg w-full dark:bg-GRAY_EXTRAHEAVY shadow-sm;
   }
 
   ul,

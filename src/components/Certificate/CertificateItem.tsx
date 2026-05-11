@@ -8,14 +8,10 @@ const CertificateItem = ({
   organizer: string;
 }) => {
   return (
-    <div className="flex flex-col md:flex-row gap-6 md:gap-0">
-      <div className="flex flex-col gap-2">
-        <div className="flex flex-col">
-          <h3>{name}</h3>
-          <span>{date}</span>
-        </div>
-        <span>{organizer}</span>
-      </div>
+    <div className="flex flex-col gap-1 items-center text-center px-4">
+      <h3>{name}</h3>
+      <span className="text-sm text-GRAY_HEAVY dark:text-GRAY">{date}</span>
+      <span className="text-sm text-GRAY_HEAVY dark:text-GRAY">{organizer}</span>
     </div>
   );
 };
