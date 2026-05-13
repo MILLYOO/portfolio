@@ -18,10 +18,10 @@ const ProjectItem = ({
 }: ProjectProps) => {
   return (
     <article
-      className="flex flex-col md:flex-row gap-4 md:gap-6 py-6 px-4 rounded-lg hover:bg-GRAY_LIGHT/30 dark:hover:bg-GRAY_EXTRAHEAVY/30 transition-all duration-300"
+      className="flex flex-col lg:flex-row gap-4 lg:gap-6 py-6 px-4 rounded-lg hover:bg-GRAY_LIGHT/30 dark:hover:bg-GRAY_EXTRAHEAVY/30 transition-all duration-300"
     >
       <div className="flex flex-col gap-2">
-        <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
+        <div className="flex lg:flex-col items-center lg:items-start mr-4 gap-6">
           {imgSrc && (
             <div className="overflow-hidden rounded-lg">
               <Image
@@ -44,7 +44,7 @@ const ProjectItem = ({
           </div>
         </div>
       </div>
-      <div className="md:border-GRAY_LIGHT md:border-solid md:border-l-[1px] md:pl-4 markdown flex flex-col w-full gap-2">
+      <div className="lg:border-GRAY_LIGHT lg:border-solid lg:border-l-[1px] lg:pl-4 markdown flex flex-col w-full gap-2">
         <div>
           <blockquote className="whitespace-pre-wrap">{`${description}`}</blockquote>
         </div>
