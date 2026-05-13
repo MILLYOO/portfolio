@@ -18,7 +18,7 @@ const ProjectItem = ({
 }: ProjectProps) => {
   return (
     <article
-      className="flex flex-col sm:flex-row md:flex-row gap-4 sm:gap-6 py-6 px-4 rounded-lg hover:bg-GRAY_LIGHT/30 dark:hover:bg-GRAY_EXTRAHEAVY/30 transition-all duration-300"
+      className="flex flex-col md:flex-row gap-4 md:gap-6 py-6 px-4 rounded-lg hover:bg-GRAY_LIGHT/30 dark:hover:bg-GRAY_EXTRAHEAVY/30 transition-all duration-300"
     >
       <div className="flex flex-col gap-2">
         <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">

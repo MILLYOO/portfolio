@@ -50,7 +50,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <DefaultSeo {...DEFAULT_SEO} />
-      <ThemeProvider attribute="class" defaultTheme="light">
+      <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange>
         <Component {...pageProps} />
         <ThemeToggle />
       </ThemeProvider>
