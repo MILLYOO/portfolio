@@ -1,25 +1,42 @@
+import GithubIcon from "@/assets/images/github.svg";
+import WebIcon from "@/assets/images/web.svg";
+import DownloadIcon from "@/assets/images/download.svg";
 
-
-const Links = ({ repoUrl, webUrl, gitUrl }: { repoUrl: string; webUrl: string | undefined; gitUrl: string; }) => {
+const Links = ({ repoUrl, webUrl, gitUrl }: { repoUrl: string; webUrl: string | undefined; gitUrl: string }) => {
   return (
-    <div className="contents gap-1 markdown">
+    <div className="flex gap-3 items-center">
       {gitUrl && (
-        <p><a target="_blank" rel="noreferrer" href={gitUrl}>
-        GitHub Link 🔗
-        {/*<GithubIcon className="hover:text-PRIMARY_HEAVY dark:hover:text-GRAY_HEAVY md:fill-current fill-BLACK dark:fill-white" />*/}
-        </a></p>
+        <a
+          href={gitUrl}
+          target="_blank"
+          rel="noreferrer"
+          title="GitHub"
+          className="text-GRAY_EXTRAHEAVY dark:text-GRAY_LIGHT hover:text-PRIMARY dark:hover:text-PRIMARY transition-colors"
+        >
+          <GithubIcon className="w-5 h-5" />
+        </a>
       )}
       {webUrl && (
-        <p><a target="_blank" rel="noreferrer" href={webUrl} className="w-fit">
-          서비스 Link 🔗
-          {/*<WebIcon className="hover:text-PRIMARY_HEAVY dark:hover:text-GRAY_HEAVY md:fill-current fill-BLACK dark:fill-white" />*/}
-        </a></p>
+        <a
+          href={webUrl}
+          target="_blank"
+          rel="noreferrer"
+          title="서비스 링크"
+          className="text-GRAY_EXTRAHEAVY dark:text-GRAY_LIGHT hover:text-PRIMARY dark:hover:text-PRIMARY transition-colors"
+        >
+          <WebIcon className="w-5 h-5" />
+        </a>
       )}
       {repoUrl && (
-        <p><a target="_blank" rel="noreferrer" href={repoUrl} className="w-fit">
-          포트폴리오 Link 🔗
-          {/*<WebIcon className="hover:text-PRIMARY_HEAVY dark:hover:text-GRAY_HEAVY md:fill-current fill-BLACK dark:fill-white" />*/}
-        </a></p>
+        <a
+          href={repoUrl}
+          target="_blank"
+          rel="noreferrer"
+          title="포트폴리오"
+          className="text-GRAY_EXTRAHEAVY dark:text-GRAY_LIGHT hover:text-PRIMARY dark:hover:text-PRIMARY transition-colors"
+        >
+          <DownloadIcon className="w-5 h-5" />
+        </a>
       )}
     </div>
   );
