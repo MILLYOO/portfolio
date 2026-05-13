@@ -3,6 +3,8 @@ import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
 
+import ThemeToggle from "@/components/ThemeToggle";
+
 const DEFAULT_SEO = {
   title: "유밀 | Full-Stack Dev",
   description: "안녕하세요, 풀스택 개발자 유밀입니다.",
@@ -48,8 +50,9 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <DefaultSeo {...DEFAULT_SEO} />
-      <ThemeProvider attribute="class">
+      <ThemeProvider attribute="class" defaultTheme="light">
         <Component {...pageProps} />
+        <ThemeToggle />
       </ThemeProvider>
     </>
   );

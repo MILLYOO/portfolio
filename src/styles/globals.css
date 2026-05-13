@@ -90,7 +90,7 @@
   }
 
   code {
-    @apply bg-GRAY_LIGHT dark:bg-GRAY_EXTRAHEAVY  py-[2px] px-1.5 rounded-md text-xs font-medium text-PRIMARY_HEAVY dark:text-PRIMARY;
+    @apply bg-GRAY_LIGHT dark:bg-GRAY_EXTRAHEAVY py-[2px] px-1.5 rounded-md text-xs font-medium text-PRIMARY_HEAVY dark:text-GRAY_LIGHT whitespace-nowrap;
   }
 
   blockquote {

@@ -58,7 +58,7 @@ const ProjectCard = ({
         </span>
       </div>
 
-      <p className="text-sm text-GRAY_HEAVY dark:text-GRAY leading-relaxed">{description}</p>
+      <p className="text-sm text-GRAY_EXTRAHEAVY dark:text-GRAY_LIGHT leading-relaxed">{description}</p>
 
       {markdown && (
         <div className="markdown text-sm">

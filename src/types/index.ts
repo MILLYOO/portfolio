@@ -1,6 +1,6 @@
 export interface InformationProps {
   name: string;
-  contact: { id: number; name: string; href: string; isEmail?: boolean }[];
+  contact: { id: number; name: string; href: string; isEmail?: boolean; isPhone?: boolean }[];
   markdown?: string;
   imgSrc?: string;
 }
