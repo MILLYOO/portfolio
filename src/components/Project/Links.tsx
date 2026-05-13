@@ -13,7 +13,7 @@ const Links = ({ repoUrl, webUrl, gitUrl }: { repoUrl: string; webUrl: string | 
           title="GitHub"
           className="text-GRAY_EXTRAHEAVY dark:text-GRAY_LIGHT hover:text-PRIMARY dark:hover:text-PRIMARY transition-colors"
         >
-          <GithubIcon className="w-5 h-5" />
+          <GithubIcon/>
         </a>
       )}
       {webUrl && (
@@ -24,7 +24,7 @@ const Links = ({ repoUrl, webUrl, gitUrl }: { repoUrl: string; webUrl: string | 
           title="서비스 링크"
           className="text-GRAY_EXTRAHEAVY dark:text-GRAY_LIGHT hover:text-PRIMARY dark:hover:text-PRIMARY transition-colors"
         >
-          <WebIcon className="w-5 h-5" />
+          <WebIcon/>
         </a>
       )}
       {repoUrl && (
